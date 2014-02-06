@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 5 5
 Title ""
 Date "6 feb 2014"
 Rev ""
@@ -71,11 +71,11 @@ WIFI_VOUT
 Text HLabel 7250 5300 2    60   Output ~ 12
 LIGHTS_VOUT
 Text HLabel 10150 1750 0    60   Output ~ 12
-MOT_RR_VOUT
+MOT_RB_VOUT
 Text HLabel 10350 850  0    60   Output ~ 12
 MOT_RF_VOUT
 Text HLabel 1750 3400 2    60   Output ~ 12
-MOT_LR_VOUT
+MOT_LB_VOUT
 Text HLabel 1700 2350 2    60   Output ~ 12
 MOT_LF_VOUT
 Text HLabel 10350 4200 0    60   Output ~ 12
@@ -280,41 +280,41 @@ Wire Wire Line
 Wire Wire Line
 	850  5850 850  2250
 Wire Wire Line
-	850  2250 8350 2250
+	850  2250 7050 2250
 Wire Wire Line
-	8350 2250 8350 2550
+	7050 2250 7050 2550
 Wire Wire Line
-	8350 2550 9600 2550
+	7050 2550 9600 2550
 Wire Wire Line
 	1450 5950 700  5950
 Wire Wire Line
 	700  5950 700  2100
 Wire Wire Line
-	700  2100 8350 2100
+	700  2100 7050 2100
 Wire Wire Line
-	8350 2100 8350 1600
+	7050 2100 7050 1600
 Wire Wire Line
-	8350 1600 9600 1600
+	7050 1600 9600 1600
 Connection ~ 1450 5950
 Wire Wire Line
 	1300 6050 1300 4200
 Wire Wire Line
-	1300 4200 8350 4200
+	1300 4200 8200 4200
 Wire Wire Line
-	8350 4200 8350 4900
+	8200 4200 8200 4900
 Wire Wire Line
-	8350 4900 9600 4900
+	8200 4900 9600 4900
 Connection ~ 1450 6050
 Wire Wire Line
 	1450 6150 1000 6150
 Wire Wire Line
 	1000 6150 1000 3200
 Wire Wire Line
-	1000 3200 8350 3200
+	1000 3200 8200 3200
 Wire Wire Line
-	8350 3200 8350 3850
+	8200 3200 8200 3850
 Wire Wire Line
-	8350 3850 9600 3850
+	8200 3850 9600 3850
 Wire Wire Line
 	1300 6050 1450 6050
 Wire Wire Line
@@ -332,58 +332,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 1100 1400 1300
 Wire Wire Line
-	5000 5850 3500 5850
-Wire Wire Line
-	3500 5850 3500 2600
-Wire Wire Line
-	3500 2600 3000 2600
-Wire Wire Line
-	5000 5950 3400 5950
-Wire Wire Line
-	3400 5950 3400 3600
-Wire Wire Line
-	3400 3600 3000 3600
-Wire Wire Line
-	5000 6050 4950 6050
-Wire Wire Line
-	4950 6050 4950 4400
-Wire Wire Line
-	4950 4400 8800 4400
-Wire Wire Line
-	5000 6150 4900 6150
-Wire Wire Line
-	4900 6150 4900 3350
-Wire Wire Line
-	4900 3350 8800 3350
-Wire Wire Line
-	5000 6250 4850 6250
-Wire Wire Line
-	4850 6250 4850 2400
-Wire Wire Line
-	4850 2400 8700 2400
-Wire Wire Line
-	8700 2400 8700 2050
-Wire Wire Line
-	8700 2050 8800 2050
-Wire Wire Line
-	5000 6350 4800 6350
-Wire Wire Line
-	4800 6350 4800 1100
-Wire Wire Line
-	4800 1100 8800 1100
-Wire Wire Line
-	6750 5600 8250 5600
-Wire Wire Line
-	8250 5600 8250 1300
-Wire Wire Line
-	8250 1300 3000 1300
-Wire Wire Line
-	6750 5700 7000 5700
-Wire Wire Line
-	7000 5700 7000 4500
-Wire Wire Line
-	7000 4500 3000 4500
-Wire Wire Line
 	1450 6350 1100 6350
 Wire Wire Line
 	1100 6350 1100 4800
@@ -397,7 +345,7 @@ Wire Wire Line
 	3000 4700 3650 4700
 Wire Wire Line
 	3000 4800 3650 4800
-Text HLabel 3150 7450 2    60   Input ~ 12
+Text HLabel 3150 7450 2    60   Output ~ 12
 RSL_VOUT
 Wire Wire Line
 	2850 7450 3150 7450
@@ -447,9 +395,7 @@ Wire Wire Line
 	3100 6050 3100 6800
 Wire Wire Line
 	3100 6800 3550 6800
-Wire Wire Line
-	1250 6750 1450 6750
-Text HLabel 7250 5800 2    60   Input ~ 12
+Text HLabel 7250 5800 2    60   Output ~ 12
 CRIO_A_VOUT
 Wire Wire Line
 	7250 5800 6750 5800
@@ -472,14 +418,6 @@ Wire Wire Line
 	6850 3750 6850 5900
 Wire Wire Line
 	6850 3750 6500 3750
-Wire Wire Line
-	1250 6750 1250 7650
-Wire Wire Line
-	1250 7650 4500 7650
-Wire Wire Line
-	4500 7650 4500 3900
-Wire Wire Line
-	4500 3900 5300 3900
 Text HLabel 5300 3450 2    60   Output ~ 12
 COMP_VOUT+
 Wire Wire Line
@@ -495,4 +433,90 @@ Wire Wire Line
 Connection ~ 6850 3750
 Text Notes 6950 3550 0    60   ~ 12
 Note:\nCOMP_VOUT- comes from \nthe ground wire of the \nSpike relay's VIN wire.
+Text Notes 6700 5500 0    40   ~ 0
+20A
+Text Notes 6700 5400 0    40   ~ 0
+5A
+Text Notes 6700 5300 0    40   ~ 0
+5A
+Text Notes 6700 5600 0    40   ~ 0
+30A
+Text Notes 6700 5700 0    40   ~ 0
+30A
+Wire Wire Line
+	6750 5600 7200 5600
+Text Label 7200 5600 2    50   ~ 0
+INT_VIN
+Wire Wire Line
+	3000 1300 3350 1300
+Text Label 3350 1300 2    40   ~ 0
+INT_VIN
+Wire Wire Line
+	6750 5700 7200 5700
+Text Label 7200 5700 2    40   ~ 0
+ELEV_VIN
+Wire Wire Line
+	3000 4500 3500 4500
+Text Label 3500 4500 2    40   ~ 0
+ELEV_VIN
+Text Notes 6700 5800 0    40   ~ 0
+20A
+Text Notes 6700 5900 0    40   ~ 0
+20A
+Wire Wire Line
+	5300 3900 4900 3900
+Text Label 4900 3900 0    40   ~ 0
+SPIKE_PWM
+Wire Wire Line
+	1450 6750 1100 6750
+Text Label 1100 6750 2    40   ~ 0
+SPIKE_PWM
+Wire Wire Line
+	5000 5850 4500 5850
+Wire Wire Line
+	5000 5950 4500 5950
+Wire Wire Line
+	5000 6050 4500 6050
+Wire Wire Line
+	5000 6150 4500 6150
+Wire Wire Line
+	5000 6250 4500 6250
+Wire Wire Line
+	5000 6350 4500 6350
+Text Label 4500 5850 0    40   ~ 0
+MOT_RF_VIN
+Text Label 8300 1100 0    40   ~ 0
+MOT_RF_VIN
+Text Label 4500 5950 0    40   ~ 0
+MOT_RB_VIN
+Text Label 8300 2050 0    40   ~ 0
+MOT_RB_VIN
+Text Label 4500 6050 0    40   ~ 0
+MOT_LF_VIN
+Text Label 3450 2600 2    40   ~ 0
+MOT_LF_VIN
+Text Label 4500 6150 0    40   ~ 0
+MOT_LB_VIN
+Text Label 3500 3600 2    40   ~ 0
+MOT_LB_VIN
+Text Label 4500 6250 0    40   ~ 0
+KICK_1_VIN
+Text Label 8350 3350 0    40   ~ 0
+KICK_1_VIN
+Text Label 4500 6350 0    40   ~ 0
+KICK_2_VIN
+Text Label 8400 4400 0    40   ~ 0
+KICK_2_VIN
+Wire Wire Line
+	3000 2600 3450 2600
+Wire Wire Line
+	3000 3600 3500 3600
+Wire Wire Line
+	8800 1100 8300 1100
+Wire Wire Line
+	8800 2050 8300 2050
+Wire Wire Line
+	8800 3350 8350 3350
+Wire Wire Line
+	8800 4400 8400 4400
 $EndSCHEMATC

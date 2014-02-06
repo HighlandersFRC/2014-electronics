@@ -35,7 +35,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 4 5
 Title ""
 Date "6 feb 2014"
 Rev ""
@@ -125,4 +125,8 @@ Wire Wire Line
 	3850 1850 3850 2000
 Wire Wire Line
 	3850 3000 3850 3150
+Text HLabel 7900 3750 3    60   Input ~ 0
+CAM_LED_VIN
+Wire Wire Line
+	7900 3100 7900 3750
 $EndSCHEMATC
