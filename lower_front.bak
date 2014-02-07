@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title ""
-Date "6 feb 2014"
+Date "7 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,10 +46,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L +12V #PWR1
+L +12V #PWR7
 U 1 1 52F29326
 P 8350 2100
-F 0 "#PWR1" H 8350 2050 20  0001 C CNN
+F 0 "#PWR7" H 8350 2050 20  0001 C CNN
 F 1 "+12V" H 8350 2200 30  0000 C CNN
 F 2 "" H 8350 2100 60  0000 C CNN
 F 3 "" H 8350 2100 60  0000 C CNN
@@ -68,10 +68,10 @@ F 3 "~" H 8350 2700 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR2
+L GND #PWR8
 U 1 1 52F2937D
 P 8350 3300
-F 0 "#PWR2" H 8350 3300 30  0001 C CNN
+F 0 "#PWR8" H 8350 3300 30  0001 C CNN
 F 1 "GND" H 8350 3230 30  0001 C CNN
 F 2 "" H 8350 3300 60  0000 C CNN
 F 3 "" H 8350 3300 60  0000 C CNN

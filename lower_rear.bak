@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 3 5
 Title ""
-Date "6 feb 2014"
+Date "7 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -134,4 +134,8 @@ Text HLabel 1550 2850 0    60   Input ~ 12
 GYRO_TEMP_AIN
 Wire Wire Line
 	1550 2850 2150 2850
+Text HLabel 4200 2650 2    60   Input ~ 12
+CRIO_SOL_VIN
+Wire Wire Line
+	3750 2650 4200 2650
 $EndSCHEMATC
